@@ -1,0 +1,73 @@
+# OS
+.DS_Store
+*.swp
+*.swo
+*.swl
+*.swm
+*.swn
+.vscode
+.idea
+
+# Build
+okexchaind
+okexchaincli
+vendor
+build
+tools/
+tools/bin/*
+examples/build/*
+docs/_build
+docs/tutorial
+dist
+tools-stamp
+doc
+
+# Data - ideally these don't exist
+baseapp/data/*
+client/lcd/keys/*
+cmd/okexchaincli/statik/statik.go
+mytestnet
+doc/statik/statik.go
+dev/cache
+cmd/launch/launch
+cmd/okexchaincli/okexchaincli
+cmd/okexchaind/okexchaind
+cmd/okexchaintool/okexchaintool
+cmd/tiger/tiger
+cmd/okexchaind/testnet_okchain.go
+dev/testnet/cache
+testnet_okexchain.go
+tools
+
+
+# Testing
+coverage.txt
+profile.out
+profile.cov
+profile_tmp.cov
+coverage.html
+unittest
+
+# Vagrant
+.vagrant/
+*.box
+*.log
+*.json
+vagrant
+
+# IDE
+.idea/
+*.iml
+*.yaml
+
+# Graphviz
+dependency-graph.png
+
+# Latex
+*.aux
+*.out
+*.synctex.gz
+contract_tests/*
+dev/cache/*
+result.txt
+ethermint
