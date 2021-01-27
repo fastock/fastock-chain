@@ -15,10 +15,10 @@ RUN make build-linux
 # Final image
 FROM golang:1.14 as final
 
-WORKDIR /okexchaind
+WORKDIR /fastock-chain-daemon
 # Copy over binaries from the build-env
-COPY --from=build-env /okexchain/build/okexchaind /usr/bin/okexchaind
-COPY --from=build-env /okexchain/build/okexchaincli /usr/bin/okexchaincli
+COPY --from=build-env /okexchain/build/fastock-chain-daemon /usr/bin/fastock-chain-daemon
+COPY --from=build-env /okexchain/build/fastock-chain-cli /usr/bin/fastock-chain-cli
 COPY --from=build-env /okexchain/networks/local/node/wrapper.sh /usr/bin/wrapper.sh
 
 EXPOSE 26656 26657

@@ -59,7 +59,7 @@ func main() {
 	ctx := server.NewDefaultContext()
 
 	rootCmd := &cobra.Command{
-		Use:               "okexchaind",
+		Use:               "fastock-chain-daemon",
 		Short:             "OKExChain App Daemon (server)",
 		PersistentPreRunE: server.PersistentPreRunEFn(ctx),
 	}

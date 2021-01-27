@@ -13,7 +13,7 @@ WORKDIR /go/src/github.com/fastock/fastock-chain
 # Add source files
 COPY . .
 
-# Build OKExChain
+# Build faStock-Chain
 RUN GOPROXY=http://goproxy.cn make install
 
 # Final image
