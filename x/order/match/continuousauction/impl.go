@@ -3,7 +3,7 @@ package continuousauction
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/order/keeper"
+	"github.com/okex/okexchain/x/order/keeper"
 )
 
 // nolint

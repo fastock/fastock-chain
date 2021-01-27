@@ -20,12 +20,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	distr "github.com/cosmos/cosmos-sdk/x/distribution"
-	"../x/gov"
+	"github.com/okex/okexchain/x/gov"
 	"github.com/cosmos/cosmos-sdk/x/mint"
-	"../x/params"
+	"github.com/okex/okexchain/x/params"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	"github.com/cosmos/cosmos-sdk/x/slashing"
-	"../x/staking"
+	"github.com/okex/okexchain/x/staking"
 	"github.com/cosmos/cosmos-sdk/x/supply"
 )
 

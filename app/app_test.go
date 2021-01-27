@@ -2,11 +2,11 @@ package app
 
 import (
 	"github.com/cosmos/cosmos-sdk/x/upgrade"
-	"../x/debug"
-	"../x/dex"
-	distr "../x/distribution"
-	"../x/farm"
-	"../x/params"
+	"github.com/okex/okexchain/x/debug"
+	"github.com/okex/okexchain/x/dex"
+	distr "github.com/okex/okexchain/x/distribution"
+	"github.com/okex/okexchain/x/farm"
+	"github.com/okex/okexchain/x/params"
 	"os"
 	"testing"
 

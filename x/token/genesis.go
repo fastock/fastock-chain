@@ -5,8 +5,8 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	"../../x/token/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/token/types"
 )
 
 // default owner of okt

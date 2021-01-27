@@ -5,16 +5,16 @@ import (
 	"fmt"
 	"time"
 
-	"../../x/order"
+	"github.com/okex/okexchain/x/order"
 
-	"../../x/stream/common"
+	"github.com/okex/okexchain/x/stream/common"
 
-	"../../x/stream/types"
+	"github.com/okex/okexchain/x/stream/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/backend"
-	ordertype "../../x/order/types"
-	"../../x/token"
+	"github.com/okex/okexchain/x/backend"
+	ordertype "github.com/okex/okexchain/x/order/types"
+	"github.com/okex/okexchain/x/token"
 )
 
 type Writer interface {

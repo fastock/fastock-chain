@@ -1,11 +1,11 @@
 package token
 
 import (
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/token/types"
+	"github.com/okex/okexchain/x/token/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

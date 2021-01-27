@@ -3,8 +3,8 @@ package slashing
 // nolint
 
 import (
-	"../../x/slashing/internal/keeper"
-	"../../x/slashing/internal/types"
+	"github.com/okex/okexchain/x/slashing/internal/keeper"
+	"github.com/okex/okexchain/x/slashing/internal/types"
 )
 
 const (

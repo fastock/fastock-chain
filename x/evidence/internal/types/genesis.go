@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"../../x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/exported"
 )
 
 // DONTCOVER

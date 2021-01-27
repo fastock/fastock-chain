@@ -19,14 +19,14 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	authcmd "github.com/cosmos/cosmos-sdk/x/auth/client/cli"
 	"github.com/cosmos/cosmos-sdk/x/bank"
-	tokencmd "../../x/token/client/cli"
+	tokencmd "github.com/okex/okexchain/x/token/client/cli"
 
-	"../../app"
-	"../../app/codec"
-	"../../app/crypto/ethsecp256k1"
-	"../../app/rpc"
-	okexchain "../../app/types"
-	"../../cmd/client"
+	"github.com/okex/okexchain/app"
+	"github.com/okex/okexchain/app/codec"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
+	"github.com/okex/okexchain/app/rpc"
+	okexchain "github.com/okex/okexchain/app/types"
+	"github.com/okex/okexchain/cmd/client"
 )
 
 var (

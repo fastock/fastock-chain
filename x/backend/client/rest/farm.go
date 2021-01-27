@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/types/rest"
 	"github.com/gorilla/mux"
-	"../../x/backend/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/backend/types"
+	"github.com/okex/okexchain/x/common"
 )
 
 func registerFarmQueryRoutes(cliCtx context.CLIContext, r *mux.Router) {

@@ -6,8 +6,8 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	pushservice "../../x/stream/pushservice/types"
-	"../../x/stream/types"
+	pushservice "github.com/okex/okexchain/x/stream/pushservice/types"
+	"github.com/okex/okexchain/x/stream/types"
 )
 
 type cache struct {

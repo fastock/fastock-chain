@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"../../x/backend/cache"
-	"../../x/backend/orm"
-	"../../x/backend/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/backend/cache"
+	"github.com/okex/okexchain/x/backend/orm"
+	"github.com/okex/okexchain/x/backend/types"
+	"github.com/okex/okexchain/x/common"
 	"github.com/stretchr/testify/assert"
 )
 

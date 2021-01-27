@@ -5,9 +5,9 @@ import (
 	"math/rand"
 
 	sim "github.com/cosmos/cosmos-sdk/x/simulation"
-	"../../x/staking/simulation"
+	"github.com/okex/okexchain/x/staking/simulation"
 
-	"../../x/staking/keeper"
+	"github.com/okex/okexchain/x/staking/keeper"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"
@@ -22,9 +22,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"../../x/staking/client/cli"
-	"../../x/staking/client/rest"
-	"../../x/staking/types"
+	"github.com/okex/okexchain/x/staking/client/cli"
+	"github.com/okex/okexchain/x/staking/client/rest"
+	"github.com/okex/okexchain/x/staking/types"
 )
 
 var (

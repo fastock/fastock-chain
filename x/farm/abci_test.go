@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	swap "../../x/ammswap/types"
-	"../../x/farm/keeper"
-	"../../x/farm/types"
+	swap "github.com/okex/okexchain/x/ammswap/types"
+	"github.com/okex/okexchain/x/farm/keeper"
+	"github.com/okex/okexchain/x/farm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"

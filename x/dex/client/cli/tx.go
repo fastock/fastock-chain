@@ -7,7 +7,7 @@ import (
 
 	client "github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/version"
-	"../../x/gov"
+	"github.com/okex/okexchain/x/gov"
 
 	"github.com/pkg/errors"
 
@@ -17,9 +17,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	authTypes "github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"../../x/common"
-	dexUtils "../../x/dex/client/utils"
-	"../../x/dex/types"
+	"github.com/okex/okexchain/x/common"
+	dexUtils "github.com/okex/okexchain/x/dex/client/utils"
+	"github.com/okex/okexchain/x/dex/types"
 	"github.com/spf13/cobra"
 )
 

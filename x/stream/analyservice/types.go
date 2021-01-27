@@ -2,11 +2,11 @@ package analyservice
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/backend"
-	"../../x/order/keeper"
-	"../../x/stream/common"
-	"../../x/stream/types"
-	"../../x/token"
+	"github.com/okex/okexchain/x/backend"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/stream/common"
+	"github.com/okex/okexchain/x/stream/types"
+	"github.com/okex/okexchain/x/token"
 )
 
 // the data enqueue to mysql

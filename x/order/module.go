@@ -12,11 +12,11 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"../../x/common/version"
-	"../../x/order/client/cli"
-	"../../x/order/client/rest"
-	"../../x/order/keeper"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/common/version"
+	"github.com/okex/okexchain/x/order/client/cli"
+	"github.com/okex/okexchain/x/order/client/rest"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 var (

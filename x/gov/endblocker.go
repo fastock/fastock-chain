@@ -4,11 +4,11 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"../../x/common/perf"
-	"../../x/gov/keeper"
+	"github.com/okex/okexchain/x/common/perf"
+	"github.com/okex/okexchain/x/gov/keeper"
 )
 
 // EndBlocker called every block, process inflation, update validator set.

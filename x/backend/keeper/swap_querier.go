@@ -7,12 +7,12 @@ import (
 	"strings"
 	"time"
 
-	"../../x/ammswap"
-	swaptypes "../../x/ammswap/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/ammswap"
+	swaptypes "github.com/okex/okexchain/x/ammswap/types"
+	"github.com/okex/okexchain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/backend/types"
+	"github.com/okex/okexchain/x/backend/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

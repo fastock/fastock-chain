@@ -3,10 +3,10 @@ package keeper
 import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 // NewQuerier returns all query handlers

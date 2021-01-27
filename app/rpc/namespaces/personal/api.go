@@ -17,10 +17,10 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	"../../app/crypto/ethsecp256k1"
-	"../../app/crypto/hd"
-	"../../app/rpc/namespaces/eth"
-	rpctypes "../../app/rpc/types"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
+	"github.com/okex/okexchain/app/crypto/hd"
+	"github.com/okex/okexchain/app/rpc/namespaces/eth"
+	rpctypes "github.com/okex/okexchain/app/rpc/types"
 )
 
 // PrivateAccountAPI is the personal_ prefixed set of APIs in the Web3 JSON-RPC spec.

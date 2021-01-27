@@ -4,7 +4,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/supply/exported"
 
-	"../../x/distribution/types"
+	"github.com/okex/okexchain/x/distribution/types"
 )
 
 // GetDistributionAccount returns the distribution ModuleAccount

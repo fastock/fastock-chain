@@ -10,9 +10,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"../../x/evidence/exported"
-	"../../x/evidence/internal/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/internal/types"
+	"github.com/okex/okexchain/x/params"
 )
 
 // Keeper defines the evidence module's keeper. The keeper is responsible for

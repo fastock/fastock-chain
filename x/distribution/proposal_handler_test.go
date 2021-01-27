@@ -6,11 +6,11 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	govtypes "../../x/gov/types"
+	govtypes "github.com/okex/okexchain/x/gov/types"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	"../../x/distribution/keeper"
-	"../../x/distribution/types"
+	"github.com/okex/okexchain/x/distribution/keeper"
+	"github.com/okex/okexchain/x/distribution/types"
 )
 
 var (

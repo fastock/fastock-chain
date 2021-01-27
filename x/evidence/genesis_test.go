@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	"../../app"
+	"github.com/okex/okexchain/app"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
@@ -13,9 +13,9 @@ import (
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/evidence"
-	"../../x/evidence/exported"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence"
+	"github.com/okex/okexchain/x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 
 	"github.com/stretchr/testify/suite"
 )

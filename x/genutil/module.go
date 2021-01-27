@@ -3,7 +3,7 @@ package genutil
 import (
 	"encoding/json"
 
-	"../../x/genutil/types"
+	"github.com/okex/okexchain/x/genutil/types"
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"

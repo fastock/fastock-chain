@@ -8,7 +8,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/dex"
+	"github.com/okex/okexchain/x/dex"
 	"github.com/stretchr/testify/require"
 )
 

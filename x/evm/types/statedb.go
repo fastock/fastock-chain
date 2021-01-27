@@ -10,9 +10,9 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 
-	ethermint "../../app/types"
+	ethermint "github.com/okex/okexchain/app/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	ethstate "github.com/ethereum/go-ethereum/core/state"

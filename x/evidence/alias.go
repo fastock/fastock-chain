@@ -1,8 +1,8 @@
 package evidence
 
 import (
-	"../../x/evidence/internal/keeper"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence/internal/keeper"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 )
 
 // nolint

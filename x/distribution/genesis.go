@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/distribution/types"
+	"github.com/okex/okexchain/x/distribution/types"
 )
 
 // InitGenesis sets distribution information for genesis

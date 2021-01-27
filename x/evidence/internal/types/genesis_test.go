@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 
-	"../../x/evidence/exported"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 )
 
 func TestDefaultGenesisState(t *testing.T) {

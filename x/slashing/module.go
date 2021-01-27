@@ -15,11 +15,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	sim "github.com/cosmos/cosmos-sdk/x/simulation"
-	"../../x/slashing/client/cli"
-	"../../x/slashing/client/rest"
-	"../../x/slashing/internal/types"
-	"../../x/slashing/simulation"
-	stakingkeeper "../../x/staking/keeper"
+	"github.com/okex/okexchain/x/slashing/client/cli"
+	"github.com/okex/okexchain/x/slashing/client/rest"
+	"github.com/okex/okexchain/x/slashing/internal/types"
+	"github.com/okex/okexchain/x/slashing/simulation"
+	stakingkeeper "github.com/okex/okexchain/x/staking/keeper"
 )
 
 var (

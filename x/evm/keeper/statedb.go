@@ -3,7 +3,7 @@ package keeper
 import (
 	"math/big"
 
-	"../../x/evm/types"
+	"github.com/okex/okexchain/x/evm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 

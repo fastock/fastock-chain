@@ -8,8 +8,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/evidence/exported"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 )
 
 var _ exported.Evidence = (*testEvidence)(nil)

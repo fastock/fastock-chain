@@ -16,8 +16,8 @@ import (
 
 	clientcontext "github.com/cosmos/cosmos-sdk/client/context"
 
-	rpctypes "../../app/rpc/types"
-	evmtypes "../../x/evm/types"
+	rpctypes "github.com/okex/okexchain/app/rpc/types"
+	evmtypes "github.com/okex/okexchain/x/evm/types"
 )
 
 // Backend defines the methods requided by the PublicFilterAPI backend

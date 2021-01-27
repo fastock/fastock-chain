@@ -8,9 +8,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/supply"
-	"../../x/ammswap/keeper"
-	"../../x/ammswap/types"
-	"../../x/token"
+	"github.com/okex/okexchain/x/ammswap/keeper"
+	"github.com/okex/okexchain/x/ammswap/types"
+	"github.com/okex/okexchain/x/token"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

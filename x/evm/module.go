@@ -13,9 +13,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	"../../x/evm/client/cli"
-	"../../x/evm/keeper"
-	"../../x/evm/types"
+	"github.com/okex/okexchain/x/evm/client/cli"
+	"github.com/okex/okexchain/x/evm/keeper"
+	"github.com/okex/okexchain/x/evm/types"
 )
 
 var _ module.AppModuleBasic = AppModuleBasic{}

@@ -1,8 +1,8 @@
 package evm
 
 import (
-	"../../x/evm/keeper"
-	"../../x/evm/types"
+	"github.com/okex/okexchain/x/evm/keeper"
+	"github.com/okex/okexchain/x/evm/types"
 )
 
 // nolint

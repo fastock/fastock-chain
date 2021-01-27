@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/common"
-	"../../x/gov/keeper"
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/gov/keeper"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 // NewHandler handle all "gov" type messages.

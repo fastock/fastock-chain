@@ -14,9 +14,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"../../x/distribution/client/cli"
-	"../../x/distribution/client/rest"
-	"../../x/distribution/types"
+	"github.com/okex/okexchain/x/distribution/client/cli"
+	"github.com/okex/okexchain/x/distribution/client/rest"
+	"github.com/okex/okexchain/x/distribution/types"
 )
 
 var (

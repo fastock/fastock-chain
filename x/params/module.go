@@ -6,8 +6,8 @@ import (
 	sim "github.com/cosmos/cosmos-sdk/x/simulation"
 	"math/rand"
 
-	"../../x/params/client/cli"
-	"../../x/params/types"
+	"github.com/okex/okexchain/x/params/client/cli"
+	"github.com/okex/okexchain/x/params/types"
 
 	"github.com/gorilla/mux"
 	"github.com/spf13/cobra"

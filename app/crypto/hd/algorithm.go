@@ -14,7 +14,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys"
 
-	"../../app/crypto/ethsecp256k1"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
 )
 
 const (

@@ -1,6 +1,6 @@
 package utils
 
-import "../../x/gov/types"
+import "github.com/okex/okexchain/x/gov/types"
 
 // NormalizeVoteOption - normalize user specified vote option
 func NormalizeVoteOption(option string) string {

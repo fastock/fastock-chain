@@ -5,10 +5,10 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	"../../x/dex/types"
-	"../../x/gov"
-	govTypes "../../x/gov/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/dex/types"
+	"github.com/okex/okexchain/x/gov"
+	govTypes "github.com/okex/okexchain/x/gov/types"
 )
 
 // GetMinDeposit returns min deposit

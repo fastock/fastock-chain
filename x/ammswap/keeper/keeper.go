@@ -3,14 +3,14 @@ package keeper
 import (
 	"fmt"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/ammswap/types"
-	tokentypes "../../x/token/types"
+	"github.com/okex/okexchain/x/ammswap/types"
+	tokentypes "github.com/okex/okexchain/x/token/types"
 )
 
 // Keeper of the swap store

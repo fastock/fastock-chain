@@ -2,7 +2,7 @@ package rest
 
 import (
 	"github.com/gorilla/mux"
-	govRest "../../x/gov/client/rest"
+	govRest "github.com/okex/okexchain/x/gov/client/rest"
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 )

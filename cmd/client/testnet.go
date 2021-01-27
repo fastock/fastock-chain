@@ -6,7 +6,7 @@ import (
 	"bufio"
 	"encoding/json"
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"github.com/spf13/viper"
 	"net"
 	"os"
@@ -35,12 +35,12 @@ import (
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/cosmos/cosmos-sdk/x/mint"
-	"../../x/genutil"
-	stakingtypes "../../x/staking/types"
+	"github.com/okex/okexchain/x/genutil"
+	stakingtypes "github.com/okex/okexchain/x/staking/types"
 
-	"../../app/crypto/hd"
-	ethermint "../../app/types"
-	evmtypes "../../x/evm/types"
+	"github.com/okex/okexchain/app/crypto/hd"
+	ethermint "github.com/okex/okexchain/app/types"
+	evmtypes "github.com/okex/okexchain/x/evm/types"
 )
 
 var (

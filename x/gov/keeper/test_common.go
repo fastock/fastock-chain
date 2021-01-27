@@ -22,9 +22,9 @@ import (
 	tmtypes "github.com/tendermint/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	"../../x/gov/types"
-	"../../x/params"
-	"../../x/staking"
+	"github.com/okex/okexchain/x/gov/types"
+	"github.com/okex/okexchain/x/params"
+	"github.com/okex/okexchain/x/staking"
 )
 
 var (

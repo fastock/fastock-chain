@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/slashing/internal/types"
+	"github.com/okex/okexchain/x/slashing/internal/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

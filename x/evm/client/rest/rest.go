@@ -15,8 +15,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/gorilla/mux"
-	rpctypes "../../app/rpc/types"
-	evmtypes "../../x/evm/types"
+	rpctypes "github.com/okex/okexchain/app/rpc/types"
+	evmtypes "github.com/okex/okexchain/x/evm/types"
 	"github.com/tendermint/tendermint/rpc/client"
 	ctypes "github.com/tendermint/tendermint/rpc/core/types"
 )

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	govutils "../../x/gov/client/utils"
+	govutils "github.com/okex/okexchain/x/gov/client/utils"
 	"github.com/spf13/viper"
 )
 

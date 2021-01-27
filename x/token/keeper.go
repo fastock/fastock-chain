@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/bank"
-	"../../x/params"
-	"../../x/token/types"
+	"github.com/okex/okexchain/x/params"
+	"github.com/okex/okexchain/x/token/types"
 	"github.com/tendermint/tendermint/crypto/tmhash"
 )
 

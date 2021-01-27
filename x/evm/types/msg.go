@@ -8,7 +8,7 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"../../app/types"
+	"github.com/okex/okexchain/app/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

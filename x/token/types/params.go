@@ -6,8 +6,8 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	"../../x/params"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/params"
 )
 
 const (

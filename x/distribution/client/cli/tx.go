@@ -17,8 +17,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 
-	"../../x/distribution/types"
-	"../../x/gov"
+	"github.com/okex/okexchain/x/distribution/types"
+	"github.com/okex/okexchain/x/gov"
 )
 
 // GetTxCmd returns the transaction commands for this module

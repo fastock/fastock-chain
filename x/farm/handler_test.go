@@ -3,17 +3,17 @@ package farm
 import (
 	"errors"
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"math"
 	"math/rand"
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	swap "../../x/ammswap"
-	swaptypes "../../x/ammswap/types"
-	"../../x/farm/keeper"
-	"../../x/farm/types"
-	"../../x/token"
+	swap "github.com/okex/okexchain/x/ammswap"
+	swaptypes "github.com/okex/okexchain/x/ammswap/types"
+	"github.com/okex/okexchain/x/farm/keeper"
+	"github.com/okex/okexchain/x/farm/types"
+	"github.com/okex/okexchain/x/token"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

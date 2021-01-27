@@ -6,17 +6,17 @@ import (
 	"reflect"
 	"time"
 
-	"../../x/ammswap"
+	"github.com/okex/okexchain/x/ammswap"
 
 	"github.com/cosmos/cosmos-sdk/x/auth"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/backend/cache"
-	"../../x/backend/config"
-	"../../x/backend/orm"
-	"../../x/backend/types"
-	"../../x/token"
+	"github.com/okex/okexchain/x/backend/cache"
+	"github.com/okex/okexchain/x/backend/config"
+	"github.com/okex/okexchain/x/backend/orm"
+	"github.com/okex/okexchain/x/backend/types"
+	"github.com/okex/okexchain/x/token"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

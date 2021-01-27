@@ -3,10 +3,10 @@ package farm
 import (
 	"testing"
 
-	swaptypes "../../x/ammswap/types"
-	"../../x/farm/keeper"
-	"../../x/farm/types"
-	govtypes "../../x/gov/types"
+	swaptypes "github.com/okex/okexchain/x/ammswap/types"
+	"github.com/okex/okexchain/x/farm/keeper"
+	"github.com/okex/okexchain/x/farm/types"
+	govtypes "github.com/okex/okexchain/x/gov/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

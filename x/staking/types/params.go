@@ -3,11 +3,11 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 )
 
 const (

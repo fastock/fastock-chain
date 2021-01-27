@@ -1,6 +1,6 @@
 package cache
 
-import "../../x/backend/types"
+import "github.com/okex/okexchain/x/backend/types"
 
 // Cache defines struct to store data in memory
 type Cache struct {

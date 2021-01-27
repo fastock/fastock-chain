@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"testing"
 	"time"
 

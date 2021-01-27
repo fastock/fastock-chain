@@ -7,7 +7,7 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"github.com/stretchr/testify/require"
 )
 

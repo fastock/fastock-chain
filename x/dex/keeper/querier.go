@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
-	"../../x/dex/types"
+	"github.com/okex/okexchain/x/dex/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

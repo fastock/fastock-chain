@@ -27,8 +27,8 @@
 package rest
 
 import (
-	"../../x/order/keeper"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 // OrderDetailParam : order detail param

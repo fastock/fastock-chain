@@ -3,11 +3,11 @@ package keeper
 import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	abci "github.com/tendermint/tendermint/abci/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/farm/types"
+	"github.com/okex/okexchain/x/farm/types"
 )
 
 const (

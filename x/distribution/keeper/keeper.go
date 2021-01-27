@@ -5,10 +5,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"../../x/distribution/types"
+	"github.com/okex/okexchain/x/distribution/types"
 )
 
 // Keeper of the distribution store

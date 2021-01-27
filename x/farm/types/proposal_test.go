@@ -2,8 +2,8 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	govTypes "../../x/gov/types"
+	"github.com/okex/okexchain/x/common"
+	govTypes "github.com/okex/okexchain/x/gov/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 )

@@ -3,10 +3,10 @@ package order
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/common/perf"
-	"../../x/order/keeper"
-	"../../x/order/types"
-	//"../../x/common/version"
+	"github.com/okex/okexchain/x/common/perf"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/types"
+	//"github.com/okex/okexchain/x/common/version"
 )
 
 // BeginBlocker runs the logic of BeginBlocker with version 0.

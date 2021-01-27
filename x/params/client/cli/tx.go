@@ -13,9 +13,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 	"github.com/spf13/cobra"
 
-	govTypes "../../x/gov/types"
-	paramscutils "../../x/params/client/utils"
-	"../../x/params/types"
+	govTypes "github.com/okex/okexchain/x/gov/types"
+	paramscutils "github.com/okex/okexchain/x/params/client/utils"
+	"github.com/okex/okexchain/x/params/types"
 )
 
 // GetCmdSubmitProposal implements a command handler for submitting a parameter change proposal transaction

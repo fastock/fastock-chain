@@ -15,9 +15,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys"
 	cmserver "github.com/cosmos/cosmos-sdk/server"
 	"github.com/ethereum/go-ethereum/rpc"
-	"../../app/crypto/ethsecp256k1"
-	"../../app/crypto/hd"
-	"../../app/rpc/websockets"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
+	"github.com/okex/okexchain/app/crypto/hd"
+	"github.com/okex/okexchain/app/rpc/websockets"
 )
 
 const (

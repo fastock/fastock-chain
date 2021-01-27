@@ -5,12 +5,12 @@ import (
 	"sort"
 	"time"
 
-	"../../x/ammswap"
+	"github.com/okex/okexchain/x/ammswap"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/backend/types"
-	"../../x/common"
-	farm "../../x/farm/types"
+	"github.com/okex/okexchain/x/backend/types"
+	"github.com/okex/okexchain/x/common"
+	farm "github.com/okex/okexchain/x/farm/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

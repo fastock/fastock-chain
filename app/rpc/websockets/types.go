@@ -7,7 +7,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	rpcfilters "../../app/rpc/namespaces/eth/filters"
+	rpcfilters "github.com/okex/okexchain/app/rpc/namespaces/eth/filters"
 )
 
 type SubscriptionResponseJSON struct {

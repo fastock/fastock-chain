@@ -2,10 +2,10 @@ package types
 
 import (
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 )
 
 // Default parameter namespace

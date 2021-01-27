@@ -3,11 +3,11 @@ package order
 import (
 	"testing"
 
-	"../../x/common/version"
+	"github.com/okex/okexchain/x/common/version"
 
 	"github.com/cosmos/cosmos-sdk/codec"
-	"../../x/order/keeper"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

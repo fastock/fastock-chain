@@ -6,14 +6,14 @@ import (
 
 	"github.com/willf/bitset"
 
-	"../../x/common/monitor"
+	"github.com/okex/okexchain/x/common/monitor"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 
-	"../../x/common"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 var onStartUp sync.Once

@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/gov/keeper"
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/keeper"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 // RegisterInvariants registers all governance invariants

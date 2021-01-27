@@ -5,13 +5,13 @@ import (
 	"strconv"
 	"testing"
 
-	"../../x/dex"
-	orderkeeper "../../x/order/keeper"
+	"github.com/okex/okexchain/x/dex"
+	orderkeeper "github.com/okex/okexchain/x/order/keeper"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 type BookItemTestData struct {

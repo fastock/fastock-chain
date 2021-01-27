@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"../../app/crypto/ethsecp256k1"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
 	"github.com/stretchr/testify/require"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"

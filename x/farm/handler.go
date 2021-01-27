@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"strconv"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/common/perf"
-	"../../x/farm/keeper"
-	"../../x/farm/types"
+	"github.com/okex/okexchain/x/common/perf"
+	"github.com/okex/okexchain/x/farm/keeper"
+	"github.com/okex/okexchain/x/farm/types"
 )
 
 // NewHandler creates an sdk.Handler for all the farm type messages

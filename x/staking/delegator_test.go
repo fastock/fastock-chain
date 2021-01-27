@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
-	"../../x/staking/types"
+	"github.com/okex/okexchain/x/staking/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

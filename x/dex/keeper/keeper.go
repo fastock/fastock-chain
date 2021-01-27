@@ -7,8 +7,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/dex/types"
-	"../../x/params"
+	"github.com/okex/okexchain/x/dex/types"
+	"github.com/okex/okexchain/x/params"
 )
 
 // Keeper maintains the link to data storage and exposes getter/setter methods for the various parts of the state machine

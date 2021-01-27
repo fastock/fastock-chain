@@ -17,9 +17,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"../../x/distribution/types"
-	"../../x/params"
-	"../../x/staking"
+	"github.com/okex/okexchain/x/distribution/types"
+	"github.com/okex/okexchain/x/params"
+	"github.com/okex/okexchain/x/staking"
 )
 
 //nolint: deadcode unused

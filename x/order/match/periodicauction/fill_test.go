@@ -6,10 +6,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"../../x/common"
-	"../../x/dex"
-	orderkeeper "../../x/order/keeper"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/dex"
+	orderkeeper "github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 var mockOrder = types.MockOrder

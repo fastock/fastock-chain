@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"

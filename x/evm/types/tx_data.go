@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"../../app/utils"
+	"github.com/okex/okexchain/app/utils"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 )

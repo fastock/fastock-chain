@@ -5,7 +5,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 // SubmitProposal creates new proposal given a content

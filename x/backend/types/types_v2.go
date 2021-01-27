@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"../../x/dex"
+	"github.com/okex/okexchain/x/dex"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

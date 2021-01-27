@@ -5,10 +5,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/common/perf"
-	"../../x/order/keeper"
-	"../../x/order/match"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/common/perf"
+	"github.com/okex/okexchain/x/order/keeper"
+	"github.com/okex/okexchain/x/order/match"
+	"github.com/okex/okexchain/x/order/types"
 )
 
 // EndBlocker called every block

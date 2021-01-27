@@ -3,8 +3,8 @@ package cache
 import (
 	"testing"
 
-	"../../x/backend/types"
-	"../../x/common"
+	"github.com/okex/okexchain/x/backend/types"
+	"github.com/okex/okexchain/x/common"
 	"github.com/stretchr/testify/require"
 )
 

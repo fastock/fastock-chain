@@ -5,10 +5,10 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	"../../x/dex/types"
-	govTypes "../../x/gov/types"
-	ordertypes "../../x/order/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/dex/types"
+	govTypes "github.com/okex/okexchain/x/gov/types"
+	ordertypes "github.com/okex/okexchain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

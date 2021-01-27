@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 
 	"github.com/spf13/cobra"
 )

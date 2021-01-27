@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/dex/types"
+	"github.com/okex/okexchain/x/dex/types"
 )
 
 const TestProductNotExist = "product-not-exist"

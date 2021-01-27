@@ -13,8 +13,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/version"
-	"../../x/evidence/exported"
-	"../../x/evidence/internal/types"
+	"github.com/okex/okexchain/x/evidence/exported"
+	"github.com/okex/okexchain/x/evidence/internal/types"
 )
 
 // GetQueryCmd returns the CLI command with all evidence module query commands

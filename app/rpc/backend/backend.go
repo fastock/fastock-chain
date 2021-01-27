@@ -7,8 +7,8 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	rpctypes "../../app/rpc/types"
-	evmtypes "../../x/evm/types"
+	rpctypes "github.com/okex/okexchain/app/rpc/types"
+	evmtypes "github.com/okex/okexchain/x/evm/types"
 
 	clientcontext "github.com/cosmos/cosmos-sdk/client/context"
 

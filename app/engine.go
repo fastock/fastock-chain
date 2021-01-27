@@ -1,7 +1,7 @@
 package app
 
 import (
-	"../x/common/monitor"
+	"github.com/okex/okexchain/x/common/monitor"
 )
 
 var (

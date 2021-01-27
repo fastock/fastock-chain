@@ -21,8 +21,8 @@ import (
 	authclient "github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	emint "../../app/types"
-	"../../x/evm/types"
+	emint "github.com/okex/okexchain/app/types"
+	"github.com/okex/okexchain/x/evm/types"
 )
 
 // GetTxCmd defines the CLI commands regarding evm module transactions

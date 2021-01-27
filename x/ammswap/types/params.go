@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/params"
+	"github.com/okex/okexchain/x/params"
 )
 
 // FeeRate defines swap fee rate

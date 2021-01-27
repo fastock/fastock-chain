@@ -4,7 +4,7 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/slashing/internal/types"
+	"github.com/okex/okexchain/x/slashing/internal/types"
 )
 
 // SignedBlocksWindow - sliding window for downtime slashing

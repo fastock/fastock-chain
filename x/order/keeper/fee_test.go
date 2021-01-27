@@ -3,12 +3,12 @@ package keeper
 import (
 	"testing"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/order/types"
 	"github.com/tendermint/tendermint/libs/cli/flags"
 )
 

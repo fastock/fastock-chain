@@ -3,7 +3,7 @@ package types
 import (
 	"testing"
 
-	"../../x/common"
+	"github.com/okex/okexchain/x/common"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

@@ -5,11 +5,11 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/stream/analyservice"
-	"../../x/stream/common/kline"
-	pushservicetypes "../../x/stream/pushservice/types"
-	"../../x/stream/types"
-	"../../x/stream/websocket"
+	"github.com/okex/okexchain/x/stream/analyservice"
+	"github.com/okex/okexchain/x/stream/common/kline"
+	pushservicetypes "github.com/okex/okexchain/x/stream/pushservice/types"
+	"github.com/okex/okexchain/x/stream/types"
+	"github.com/okex/okexchain/x/stream/websocket"
 )
 
 func EndBlocker(ctx sdk.Context, k Keeper) {

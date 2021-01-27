@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 var (

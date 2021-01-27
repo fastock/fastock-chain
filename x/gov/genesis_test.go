@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"../../x/gov/keeper"
-	"../../x/gov/types"
+	"github.com/okex/okexchain/x/gov/keeper"
+	"github.com/okex/okexchain/x/gov/types"
 )
 
 func TestInitGenesisState(t *testing.T) {

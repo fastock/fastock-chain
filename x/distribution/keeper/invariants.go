@@ -5,8 +5,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"../../x/distribution/types"
-	"../../x/staking/exported"
+	"github.com/okex/okexchain/x/distribution/types"
+	"github.com/okex/okexchain/x/staking/exported"
 )
 
 // RegisterInvariants registers all distribution invariants

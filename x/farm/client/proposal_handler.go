@@ -1,9 +1,9 @@
 package client
 
 import (
-	"../../x/farm/client/cli"
-	"../../x/farm/client/rest"
-	govcli "../../x/gov/client"
+	"github.com/okex/okexchain/x/farm/client/cli"
+	"github.com/okex/okexchain/x/farm/client/rest"
+	govcli "github.com/okex/okexchain/x/gov/client"
 )
 
 var (

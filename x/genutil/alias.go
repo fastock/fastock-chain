@@ -1,7 +1,7 @@
 package genutil
 
 import (
-	"../../x/genutil/types"
+	"github.com/okex/okexchain/x/genutil/types"
 
 	sdkgenutil "github.com/cosmos/cosmos-sdk/x/genutil"
 	sdkgenutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"

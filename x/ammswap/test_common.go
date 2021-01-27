@@ -2,8 +2,8 @@ package ammswap
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	swapkeeper "../../x/ammswap/keeper"
-	"../../x/ammswap/types"
+	swapkeeper "github.com/okex/okexchain/x/ammswap/keeper"
+	"github.com/okex/okexchain/x/ammswap/types"
 	"github.com/stretchr/testify/require"
 	"testing"
 	"time"

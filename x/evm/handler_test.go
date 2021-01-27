@@ -23,12 +23,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	auth "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"../../app"
-	"../../app/crypto/ethsecp256k1"
-	ethermint "../../app/types"
-	"../../x/evm"
-	"../../x/evm/keeper"
-	"../../x/evm/types"
+	"github.com/okex/okexchain/app"
+	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
+	ethermint "github.com/okex/okexchain/app/types"
+	"github.com/okex/okexchain/x/evm"
+	"github.com/okex/okexchain/x/evm/keeper"
+	"github.com/okex/okexchain/x/evm/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"

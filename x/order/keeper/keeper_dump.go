@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"../../x/common"
-	"../../x/order/types"
+	"github.com/okex/okexchain/x/common"
+	"github.com/okex/okexchain/x/order/types"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

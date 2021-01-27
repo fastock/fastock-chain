@@ -9,8 +9,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"../../app/utils"
-	"../../x/evm/types"
+	"github.com/okex/okexchain/app/utils"
+	"github.com/okex/okexchain/x/evm/types"
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 	abci "github.com/tendermint/tendermint/abci/types"
