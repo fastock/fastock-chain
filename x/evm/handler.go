@@ -2,8 +2,8 @@ package evm
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	ethermint "github.com/okex/okexchain/app/types"
-	"github.com/okex/okexchain/x/evm/types"
+	ethermint "github.com/fastock/fastock-chain/app/types"
+	"github.com/fastock/fastock-chain/x/evm/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

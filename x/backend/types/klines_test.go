@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	"github.com/stretchr/testify/require"
 

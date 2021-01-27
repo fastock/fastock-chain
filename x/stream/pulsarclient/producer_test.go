@@ -1,15 +1,15 @@
 package pulsarclient
 
 import (
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/stream/common/kline"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/stream/common/kline"
 	"math/rand"
 	"os"
 	"testing"
 	"time"
 
 	appCfg "github.com/cosmos/cosmos-sdk/server/config"
-	"github.com/okex/okexchain/x/backend"
+	"github.com/fastock/fastock-chain/x/backend"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 )

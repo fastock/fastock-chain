@@ -2,7 +2,7 @@ package types
 
 import (
 	"fmt"
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"

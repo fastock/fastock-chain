@@ -17,8 +17,8 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	rpctypes "github.com/okex/okexchain/app/rpc/types"
-	evmtypes "github.com/okex/okexchain/x/evm/types"
+	rpctypes "github.com/fastock/fastock-chain/app/rpc/types"
+	evmtypes "github.com/fastock/fastock-chain/x/evm/types"
 )
 
 var (

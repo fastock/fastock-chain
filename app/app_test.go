@@ -2,11 +2,11 @@ package app
 
 import (
 	"github.com/cosmos/cosmos-sdk/x/upgrade"
-	"github.com/okex/okexchain/x/debug"
-	"github.com/okex/okexchain/x/dex"
-	distr "github.com/okex/okexchain/x/distribution"
-	"github.com/okex/okexchain/x/farm"
-	"github.com/okex/okexchain/x/params"
+	"github.com/fastock/fastock-chain/x/debug"
+	"github.com/fastock/fastock-chain/x/dex"
+	distr "github.com/fastock/fastock-chain/x/distribution"
+	"github.com/fastock/fastock-chain/x/farm"
+	"github.com/fastock/fastock-chain/x/params"
 	"os"
 	"testing"
 

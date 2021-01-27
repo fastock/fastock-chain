@@ -2,8 +2,8 @@ package types
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/params"
-	token "github.com/okex/okexchain/x/token/types"
+	"github.com/fastock/fastock-chain/x/params"
+	token "github.com/fastock/fastock-chain/x/token/types"
 )
 
 // ParamSubspace defines the expected Subspace interface

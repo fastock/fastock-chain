@@ -2,7 +2,7 @@ package keeper
 
 import (
 	"github.com/cosmos/cosmos-sdk/client"
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 	"github.com/tendermint/tendermint/crypto"
 	"strings"
 
@@ -10,7 +10,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/types"
 )
 
 // NewQuerier creates a querier for staking REST endpoints

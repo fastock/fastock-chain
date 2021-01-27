@@ -8,14 +8,14 @@ import (
 
 	"github.com/willf/bitset"
 
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/okex/okexchain/x/order"
-	orderKeeper "github.com/okex/okexchain/x/order/keeper"
-	tokenKeeper "github.com/okex/okexchain/x/token"
-	token "github.com/okex/okexchain/x/token/types"
+	"github.com/fastock/fastock-chain/x/order"
+	orderKeeper "github.com/fastock/fastock-chain/x/order/keeper"
+	tokenKeeper "github.com/fastock/fastock-chain/x/token"
+	token "github.com/fastock/fastock-chain/x/token/types"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 )

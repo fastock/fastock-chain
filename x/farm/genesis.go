@@ -3,8 +3,8 @@ package farm
 import (
 	"fmt"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/farm/keeper"
-	"github.com/okex/okexchain/x/farm/types"
+	"github.com/fastock/fastock-chain/x/farm/keeper"
+	"github.com/fastock/fastock-chain/x/farm/types"
 )
 
 // InitGenesis initialize default parameters and the keeper's address to pubkey map

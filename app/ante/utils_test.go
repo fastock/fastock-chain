@@ -10,11 +10,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 
-	"github.com/okex/okexchain/app"
-	ante "github.com/okex/okexchain/app/ante"
-	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	okexchain "github.com/okex/okexchain/app/types"
-	evmtypes "github.com/okex/okexchain/x/evm/types"
+	"github.com/fastock/fastock-chain/app"
+	ante "github.com/fastock/fastock-chain/app/ante"
+	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	okexchain "github.com/fastock/fastock-chain/app/types"
+	evmtypes "github.com/fastock/fastock-chain/x/evm/types"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 

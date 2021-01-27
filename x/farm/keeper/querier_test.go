@@ -10,7 +10,7 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/okex/okexchain/x/farm/types"
+	"github.com/fastock/fastock-chain/x/farm/types"
 )
 
 const custom = "custom"

@@ -7,8 +7,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/auth/vesting"
 
-	cryptocodec "github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/okex/okexchain/app/types"
+	cryptocodec "github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	ethermint "github.com/fastock/fastock-chain/app/types"
 )
 
 // MakeCodec registers the necessary types and interfaces for an sdk.App. This

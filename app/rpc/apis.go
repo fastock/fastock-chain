@@ -5,14 +5,14 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 
-	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	"github.com/okex/okexchain/app/rpc/backend"
-	"github.com/okex/okexchain/app/rpc/namespaces/eth"
-	"github.com/okex/okexchain/app/rpc/namespaces/eth/filters"
-	"github.com/okex/okexchain/app/rpc/namespaces/net"
-	"github.com/okex/okexchain/app/rpc/namespaces/personal"
-	"github.com/okex/okexchain/app/rpc/namespaces/web3"
-	rpctypes "github.com/okex/okexchain/app/rpc/types"
+	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	"github.com/fastock/fastock-chain/app/rpc/backend"
+	"github.com/fastock/fastock-chain/app/rpc/namespaces/eth"
+	"github.com/fastock/fastock-chain/app/rpc/namespaces/eth/filters"
+	"github.com/fastock/fastock-chain/app/rpc/namespaces/net"
+	"github.com/fastock/fastock-chain/app/rpc/namespaces/personal"
+	"github.com/fastock/fastock-chain/app/rpc/namespaces/web3"
+	rpctypes "github.com/fastock/fastock-chain/app/rpc/types"
 )
 
 // RPC namespaces and API version

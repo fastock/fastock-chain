@@ -2,7 +2,7 @@ package keeper
 
 import (
 	supplyexported "github.com/cosmos/cosmos-sdk/x/supply/exported"
-	stakingexported "github.com/okex/okexchain/x/staking/exported"
+	stakingexported "github.com/fastock/fastock-chain/x/staking/exported"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

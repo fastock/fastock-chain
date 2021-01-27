@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/dex"
-	"github.com/okex/okexchain/x/order/keeper"
-	"github.com/okex/okexchain/x/order/types"
-	token "github.com/okex/okexchain/x/token/types"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/dex"
+	"github.com/fastock/fastock-chain/x/order/keeper"
+	"github.com/fastock/fastock-chain/x/order/types"
+	token "github.com/fastock/fastock-chain/x/token/types"
 )
 
 func TestEndBlockerPeriodicMatch(t *testing.T) {

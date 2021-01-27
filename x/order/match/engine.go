@@ -5,9 +5,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/okex/okexchain/x/order/keeper"
-	"github.com/okex/okexchain/x/order/match/continuousauction"
-	"github.com/okex/okexchain/x/order/match/periodicauction"
+	"github.com/fastock/fastock-chain/x/order/keeper"
+	"github.com/fastock/fastock-chain/x/order/match/continuousauction"
+	"github.com/fastock/fastock-chain/x/order/match/periodicauction"
 )
 
 // nolint

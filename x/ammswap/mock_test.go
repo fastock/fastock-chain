@@ -11,13 +11,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/mock"
 	"github.com/cosmos/cosmos-sdk/x/supply"
 	"github.com/cosmos/cosmos-sdk/x/supply/exported"
-	"github.com/okex/okexchain/x/ammswap/types"
-	staking "github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/ammswap/types"
+	staking "github.com/fastock/fastock-chain/x/staking/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 
-	"github.com/okex/okexchain/x/token"
+	"github.com/fastock/fastock-chain/x/token"
 )
 
 type MockApp struct {

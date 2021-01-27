@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/okex/okexchain/x/backend/types"
+	"github.com/fastock/fastock-chain/x/backend/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	orderTypes "github.com/okex/okexchain/x/order/types"
+	orderTypes "github.com/fastock/fastock-chain/x/order/types"
 )
 
 // EndBlocker called every block, check expired orders

@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	"github.com/cosmos/cosmos-sdk/x/supply"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/staking/exported"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/exported"
+	"github.com/fastock/fastock-chain/x/staking/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"

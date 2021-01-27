@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/okex/okexchain/x/staking"
+	"github.com/fastock/fastock-chain/x/staking"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store"
@@ -14,17 +14,17 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/bank"
 	"github.com/cosmos/cosmos-sdk/x/supply"
-	"github.com/okex/okexchain/x/params"
+	"github.com/fastock/fastock-chain/x/params"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 	"github.com/tendermint/tendermint/crypto/ed25519"
 	"github.com/tendermint/tendermint/libs/log"
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/dex/types"
-	"github.com/okex/okexchain/x/gov"
-	"github.com/okex/okexchain/x/token"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/dex/types"
+	"github.com/fastock/fastock-chain/x/gov"
+	"github.com/fastock/fastock-chain/x/token"
 )
 
 type testInput struct {

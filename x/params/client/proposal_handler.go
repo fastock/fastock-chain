@@ -1,9 +1,9 @@
 package client
 
 import (
-	govclient "github.com/okex/okexchain/x/gov/client"
-	"github.com/okex/okexchain/x/params/client/cli"
-	"github.com/okex/okexchain/x/params/client/rest"
+	govclient "github.com/fastock/fastock-chain/x/gov/client"
+	"github.com/fastock/fastock-chain/x/params/client/cli"
+	"github.com/fastock/fastock-chain/x/params/client/rest"
 )
 
 // ProposalHandler is the param change proposal handler in cmsdk

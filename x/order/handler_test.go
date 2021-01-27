@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/dex"
-	"github.com/okex/okexchain/x/order/types"
-	"github.com/okex/okexchain/x/token"
-	tokentypes "github.com/okex/okexchain/x/token/types"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/dex"
+	"github.com/fastock/fastock-chain/x/order/types"
+	"github.com/fastock/fastock-chain/x/token"
+	tokentypes "github.com/fastock/fastock-chain/x/token/types"
 )
 
 func TestEventNewOrders(t *testing.T) {

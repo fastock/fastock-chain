@@ -4,11 +4,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/okex/okexchain/x/gov/keeper"
-	"github.com/okex/okexchain/x/gov/types"
-	"github.com/okex/okexchain/x/params"
-	paramsTypes "github.com/okex/okexchain/x/params/types"
-	"github.com/okex/okexchain/x/staking"
+	"github.com/fastock/fastock-chain/x/gov/keeper"
+	"github.com/fastock/fastock-chain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/params"
+	paramsTypes "github.com/fastock/fastock-chain/x/params/types"
+	"github.com/fastock/fastock-chain/x/staking"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

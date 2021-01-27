@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/okex/okexchain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/gov/types"
 )
 
 func TestProposalHandlerRouter_AddRoute(t *testing.T) {

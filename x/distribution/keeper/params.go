@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/okex/okexchain/x/distribution/types"
+	"github.com/fastock/fastock-chain/x/distribution/types"
 )
 
 // GetParams returns the total set of distribution parameters.

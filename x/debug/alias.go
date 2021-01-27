@@ -1,8 +1,8 @@
 package debug
 
 import (
-	"github.com/okex/okexchain/x/debug/keeper"
-	"github.com/okex/okexchain/x/debug/types"
+	"github.com/fastock/fastock-chain/x/debug/keeper"
+	"github.com/fastock/fastock-chain/x/debug/types"
 )
 
 const (

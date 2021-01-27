@@ -14,10 +14,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 
-	"github.com/okex/okexchain/app"
-	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	ethermint "github.com/okex/okexchain/app/types"
-	"github.com/okex/okexchain/x/evm/types"
+	"github.com/fastock/fastock-chain/app"
+	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	ethermint "github.com/fastock/fastock-chain/app/types"
+	"github.com/fastock/fastock-chain/x/evm/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

@@ -8,8 +8,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/gorilla/mux"
-	"github.com/okex/okexchain/x/ammswap/client/cli"
-	"github.com/okex/okexchain/x/ammswap/client/rest"
+	"github.com/fastock/fastock-chain/x/ammswap/client/cli"
+	"github.com/fastock/fastock-chain/x/ammswap/client/rest"
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

@@ -7,9 +7,9 @@ import (
 	"gopkg.in/yaml.v2"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/params"
+	"github.com/fastock/fastock-chain/x/params"
 
-	ethermint "github.com/okex/okexchain/app/types"
+	ethermint "github.com/fastock/fastock-chain/app/types"
 )
 
 const (

@@ -8,8 +8,8 @@ import (
 
 	ethcmn "github.com/ethereum/go-ethereum/common"
 
-	ethermint "github.com/okex/okexchain/app/types"
-	"github.com/okex/okexchain/x/evm/types"
+	ethermint "github.com/fastock/fastock-chain/app/types"
+	"github.com/fastock/fastock-chain/x/evm/types"
 
 	abci "github.com/tendermint/tendermint/abci/types"
 )

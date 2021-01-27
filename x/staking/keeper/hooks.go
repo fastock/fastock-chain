@@ -2,7 +2,7 @@ package keeper
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/types"
 )
 
 // Implements StakingHooks interface

@@ -3,16 +3,16 @@ package stream
 import (
 	"fmt"
 
-	"github.com/okex/okexchain/x/ammswap"
-	backend "github.com/okex/okexchain/x/backend/types"
-	"github.com/okex/okexchain/x/dex"
-	"github.com/okex/okexchain/x/stream/types"
+	"github.com/fastock/fastock-chain/x/ammswap"
+	backend "github.com/fastock/fastock-chain/x/backend/types"
+	"github.com/fastock/fastock-chain/x/dex"
+	"github.com/fastock/fastock-chain/x/stream/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/server/config"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/okex/okexchain/x/common/monitor"
+	"github.com/fastock/fastock-chain/x/common/monitor"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

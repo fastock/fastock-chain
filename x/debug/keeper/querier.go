@@ -2,10 +2,10 @@ package keeper
 
 import (
 	"fmt"
-	"github.com/okex/okexchain/x/staking"
+	"github.com/fastock/fastock-chain/x/staking"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/debug/types"
+	"github.com/fastock/fastock-chain/x/debug/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 

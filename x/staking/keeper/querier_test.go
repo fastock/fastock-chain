@@ -3,10 +3,10 @@ package keeper
 import (
 	"testing"
 
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	types2 "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/types"
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/go-amino"
 	abci "github.com/tendermint/tendermint/abci/types"

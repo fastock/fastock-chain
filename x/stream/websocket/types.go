@@ -2,9 +2,9 @@ package websocket
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/stream/common"
-	pushservice "github.com/okex/okexchain/x/stream/pushservice/types"
-	"github.com/okex/okexchain/x/stream/types"
+	"github.com/fastock/fastock-chain/x/stream/common"
+	pushservice "github.com/fastock/fastock-chain/x/stream/pushservice/types"
+	"github.com/fastock/fastock-chain/x/stream/types"
 )
 
 type PushData struct {

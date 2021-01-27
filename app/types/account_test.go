@@ -13,8 +13,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 
-	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	"github.com/okex/okexchain/app/types"
+	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	"github.com/fastock/fastock-chain/app/types"
 )
 
 func init() {

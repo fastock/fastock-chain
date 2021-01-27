@@ -3,7 +3,7 @@ package cli
 import (
 	flag "github.com/spf13/pflag"
 
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/types"
 )
 
 // nolint

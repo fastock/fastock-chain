@@ -6,8 +6,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/okex/okexchain/x/dex"
-	"github.com/okex/okexchain/x/order/types"
+	"github.com/fastock/fastock-chain/x/dex"
+	"github.com/fastock/fastock-chain/x/order/types"
 )
 
 func TestOrderIDsMapInsertAndRemove(t *testing.T) {

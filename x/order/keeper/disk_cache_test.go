@@ -3,10 +3,10 @@ package keeper
 import (
 	"testing"
 
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/order/types"
+	"github.com/fastock/fastock-chain/x/order/types"
 	"github.com/stretchr/testify/require"
 )
 

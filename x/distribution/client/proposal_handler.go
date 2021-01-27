@@ -1,9 +1,9 @@
 package client
 
 import (
-	"github.com/okex/okexchain/x/distribution/client/cli"
-	"github.com/okex/okexchain/x/distribution/client/rest"
-	govclient "github.com/okex/okexchain/x/gov/client"
+	"github.com/fastock/fastock-chain/x/distribution/client/cli"
+	"github.com/fastock/fastock-chain/x/distribution/client/rest"
+	govclient "github.com/fastock/fastock-chain/x/gov/client"
 )
 
 // param change proposal handler

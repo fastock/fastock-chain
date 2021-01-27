@@ -2,8 +2,8 @@ package farm
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/farm/keeper"
-	"github.com/okex/okexchain/x/farm/types"
+	"github.com/fastock/fastock-chain/x/farm/keeper"
+	"github.com/fastock/fastock-chain/x/farm/types"
 )
 
 func handleMsgLock(ctx sdk.Context, k keeper.Keeper, msg types.MsgLock) (*sdk.Result, error) {

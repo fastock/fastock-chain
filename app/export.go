@@ -10,11 +10,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/slashing"
-	"github.com/okex/okexchain/x/staking"
-	"github.com/okex/okexchain/x/staking/exported"
+	"github.com/fastock/fastock-chain/x/slashing"
+	"github.com/fastock/fastock-chain/x/staking"
+	"github.com/fastock/fastock-chain/x/staking/exported"
 
-	ethcdc "github.com/okex/okexchain/app/codec"
+	ethcdc "github.com/fastock/fastock-chain/app/codec"
 )
 
 // NewDefaultGenesisState generates the default state for the application.

@@ -3,7 +3,7 @@ package keeper
 import (
 	"testing"
 
-	"github.com/okex/okexchain/x/distribution/types"
+	"github.com/fastock/fastock-chain/x/distribution/types"
 	"github.com/stretchr/testify/require"
 )
 

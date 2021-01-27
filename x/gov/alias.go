@@ -4,8 +4,8 @@
 package gov
 
 import (
-	"github.com/okex/okexchain/x/gov/keeper"
-	"github.com/okex/okexchain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/gov/keeper"
+	"github.com/fastock/fastock-chain/x/gov/types"
 )
 
 const (

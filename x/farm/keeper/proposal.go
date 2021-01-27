@@ -5,10 +5,10 @@ import (
 	"time"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/farm/types"
-	sdkGov "github.com/okex/okexchain/x/gov"
-	govKeeper "github.com/okex/okexchain/x/gov/keeper"
-	govTypes "github.com/okex/okexchain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/farm/types"
+	sdkGov "github.com/fastock/fastock-chain/x/gov"
+	govKeeper "github.com/fastock/fastock-chain/x/gov/keeper"
+	govTypes "github.com/fastock/fastock-chain/x/gov/types"
 )
 
 var _ govKeeper.ProposalHandler = (*Keeper)(nil)

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	swaptypes "github.com/okex/okexchain/x/ammswap/types"
-	"github.com/okex/okexchain/x/farm/types"
+	swaptypes "github.com/fastock/fastock-chain/x/ammswap/types"
+	"github.com/fastock/fastock-chain/x/farm/types"
 	"github.com/stretchr/testify/require"
 )
 

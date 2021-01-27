@@ -9,7 +9,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/okex/okexchain/x/stream/common/utils"
+	"github.com/fastock/fastock-chain/x/stream/common/utils"
 	"github.com/tendermint/tendermint/libs/log"
 )
 

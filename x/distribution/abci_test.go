@@ -3,7 +3,7 @@ package distribution
 import (
 	"testing"
 
-	"github.com/okex/okexchain/x/distribution/keeper"
+	"github.com/fastock/fastock-chain/x/distribution/keeper"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

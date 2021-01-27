@@ -3,9 +3,9 @@ package common
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth"
-	"github.com/okex/okexchain/x/ammswap"
-	"github.com/okex/okexchain/x/backend"
-	"github.com/okex/okexchain/x/dex/types"
+	"github.com/fastock/fastock-chain/x/ammswap"
+	"github.com/fastock/fastock-chain/x/backend"
+	"github.com/fastock/fastock-chain/x/dex/types"
 )
 
 type Cache struct {

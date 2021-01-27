@@ -13,8 +13,8 @@ import (
 	clientcontext "github.com/cosmos/cosmos-sdk/client/context"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/okex/okexchain/app/crypto/ethsecp256k1"
-	evmtypes "github.com/okex/okexchain/x/evm/types"
+	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
+	evmtypes "github.com/fastock/fastock-chain/x/evm/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/ethereum/go-ethereum/common"

@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
 
-	"github.com/okex/okexchain/x/staking/keeper"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/staking/keeper"
+	"github.com/fastock/fastock-chain/x/staking/types"
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/stretchr/testify/require"

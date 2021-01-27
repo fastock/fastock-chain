@@ -6,7 +6,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
-	apptypes "github.com/okex/okexchain/app/types"
+	apptypes "github.com/fastock/fastock-chain/app/types"
 )
 
 func initConfig() {

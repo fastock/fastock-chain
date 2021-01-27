@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/okex/okexchain/x/order/types"
+	"github.com/fastock/fastock-chain/x/order/types"
 	"github.com/willf/bitset"
 )
 

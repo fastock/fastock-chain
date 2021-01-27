@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	//"github.com/okex/okexchain/x/common"
-	//dexTypes "github.com/okex/okexchain/x/dex/types"
-	"github.com/okex/okexchain/x/gov/types"
+	//"github.com/fastock/fastock-chain/x/common"
+	//dexTypes "github.com/fastock/fastock-chain/x/dex/types"
+	"github.com/fastock/fastock-chain/x/gov/types"
 )
 
 //func TestKeeper_SubmitProposal(t *testing.T) {

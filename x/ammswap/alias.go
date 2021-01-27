@@ -1,8 +1,8 @@
 package ammswap
 
 import (
-	"github.com/okex/okexchain/x/ammswap/keeper"
-	"github.com/okex/okexchain/x/ammswap/types"
+	"github.com/fastock/fastock-chain/x/ammswap/keeper"
+	"github.com/fastock/fastock-chain/x/ammswap/types"
 )
 
 const (

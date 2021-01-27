@@ -5,8 +5,8 @@ import (
 
 	cliLcd "github.com/cosmos/cosmos-sdk/client/lcd"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/okex/okexchain/x/farm/keeper"
-	"github.com/okex/okexchain/x/farm/types"
+	"github.com/fastock/fastock-chain/x/farm/keeper"
+	"github.com/fastock/fastock-chain/x/farm/types"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

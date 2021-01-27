@@ -3,7 +3,7 @@ package stream
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/okex/okexchain/x/backend/types"
+	"github.com/fastock/fastock-chain/x/backend/types"
 	"sort"
 	"strconv"
 	"strings"
@@ -11,8 +11,8 @@ import (
 
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/okex/okexchain/x/backend"
-	"github.com/okex/okexchain/x/stream/pushservice/conn"
+	"github.com/fastock/fastock-chain/x/backend"
+	"github.com/fastock/fastock-chain/x/stream/pushservice/conn"
 )
 
 type MarketKeeper backend.MarketKeeper

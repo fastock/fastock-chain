@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/okex/okexchain/x/staking/exported"
+	"github.com/fastock/fastock-chain/x/staking/exported"
 	"github.com/tendermint/tendermint/libs/log"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/params"
-	"github.com/okex/okexchain/x/staking/types"
+	"github.com/fastock/fastock-chain/x/params"
+	"github.com/fastock/fastock-chain/x/staking/types"
 )
 
 const aminoCacheSize = 500

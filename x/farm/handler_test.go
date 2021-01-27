@@ -3,17 +3,17 @@ package farm
 import (
 	"errors"
 	"fmt"
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 	"math"
 	"math/rand"
 	"testing"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	swap "github.com/okex/okexchain/x/ammswap"
-	swaptypes "github.com/okex/okexchain/x/ammswap/types"
-	"github.com/okex/okexchain/x/farm/keeper"
-	"github.com/okex/okexchain/x/farm/types"
-	"github.com/okex/okexchain/x/token"
+	swap "github.com/fastock/fastock-chain/x/ammswap"
+	swaptypes "github.com/fastock/fastock-chain/x/ammswap/types"
+	"github.com/fastock/fastock-chain/x/farm/keeper"
+	"github.com/fastock/fastock-chain/x/farm/types"
+	"github.com/fastock/fastock-chain/x/token"
 	"github.com/stretchr/testify/require"
 	abci "github.com/tendermint/tendermint/abci/types"
 )

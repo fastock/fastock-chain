@@ -2,11 +2,11 @@ package dex
 
 import (
 	"fmt"
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/dex/types"
-	govTypes "github.com/okex/okexchain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/dex/types"
+	govTypes "github.com/fastock/fastock-chain/x/gov/types"
 )
 
 // NewProposalHandler handles "gov" type message in "dex"

@@ -3,7 +3,7 @@ package order
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/okex/okexchain/x/common"
+	"github.com/fastock/fastock-chain/x/common"
 	"math"
 
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
@@ -13,9 +13,9 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	"github.com/willf/bitset"
 
-	"github.com/okex/okexchain/x/common/perf"
-	"github.com/okex/okexchain/x/order/keeper"
-	"github.com/okex/okexchain/x/order/types"
+	"github.com/fastock/fastock-chain/x/common/perf"
+	"github.com/fastock/fastock-chain/x/order/keeper"
+	"github.com/fastock/fastock-chain/x/order/types"
 )
 
 func CalculateGas(msg sdk.Msg, params *types.Params) (gas uint64) {

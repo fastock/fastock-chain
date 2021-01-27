@@ -1,8 +1,8 @@
 package token
 
 import (
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/token/types"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/token/types"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

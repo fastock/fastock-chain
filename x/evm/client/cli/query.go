@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
 
-	"github.com/okex/okexchain/x/evm/types"
+	"github.com/fastock/fastock-chain/x/evm/types"
 )
 
 // GetQueryCmd defines evm module queries through the cli

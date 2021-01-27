@@ -6,8 +6,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/evidence/exported"
-	"github.com/okex/okexchain/x/evidence/internal/types"
+	"github.com/fastock/fastock-chain/x/evidence/exported"
+	"github.com/fastock/fastock-chain/x/evidence/internal/types"
 )
 
 func testHandler(sdk.Context, exported.Evidence) error { return nil }

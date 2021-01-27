@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client/context"
 	"github.com/cosmos/cosmos-sdk/codec"
-	"github.com/okex/okexchain/x/gov/client/rest"
+	"github.com/fastock/fastock-chain/x/gov/client/rest"
 )
 
 // function to create the rest handler

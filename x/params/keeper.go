@@ -5,7 +5,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkparams "github.com/cosmos/cosmos-sdk/x/params"
 
-	"github.com/okex/okexchain/x/params/types"
+	"github.com/fastock/fastock-chain/x/params/types"
 )
 
 // Keeper is the struct of params keeper

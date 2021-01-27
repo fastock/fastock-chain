@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	"github.com/okex/okexchain/x/distribution/types"
-	"github.com/okex/okexchain/x/staking/exported"
-	stakingexported "github.com/okex/okexchain/x/staking/exported"
+	"github.com/fastock/fastock-chain/x/distribution/types"
+	"github.com/fastock/fastock-chain/x/staking/exported"
+	stakingexported "github.com/fastock/fastock-chain/x/staking/exported"
 )
 
 var (

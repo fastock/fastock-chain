@@ -11,13 +11,13 @@ import (
 	"github.com/cosmos/cosmos-sdk/version"
 	"github.com/cosmos/cosmos-sdk/x/auth"
 	"github.com/cosmos/cosmos-sdk/x/auth/client/utils"
-	"github.com/okex/okexchain/x/gov"
+	"github.com/fastock/fastock-chain/x/gov"
 	"github.com/spf13/cobra"
 
 	client "github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"
-	farmutils "github.com/okex/okexchain/x/farm/client/utils"
-	"github.com/okex/okexchain/x/farm/types"
+	farmutils "github.com/fastock/fastock-chain/x/farm/client/utils"
+	"github.com/fastock/fastock-chain/x/farm/types"
 )
 
 // GetTxCmd returns the transaction commands for this module

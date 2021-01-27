@@ -2,9 +2,9 @@ package farm
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/okex/okexchain/x/common"
-	"github.com/okex/okexchain/x/farm/types"
-	govTypes "github.com/okex/okexchain/x/gov/types"
+	"github.com/fastock/fastock-chain/x/common"
+	"github.com/fastock/fastock-chain/x/farm/types"
+	govTypes "github.com/fastock/fastock-chain/x/gov/types"
 )
 
 // NewManageWhiteListProposalHandler handles "gov" type message in "farm"
