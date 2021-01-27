@@ -1,4 +1,4 @@
-module github.com/okex/okexchain
+module github.com/fastock/fastock-chain
 
 go 1.14
 
