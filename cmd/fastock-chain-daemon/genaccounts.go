@@ -20,7 +20,7 @@ import (
 	authvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting"
 	"github.com/fastock/fastock-chain/x/genutil"
 
-	okexchain "github.com/fastock/fastock-chain/app/types"
+	blockchain "github.com/fastock/fastock-chain/app/types"
 	"github.com/fastock/fastock-chain/app/crypto/hd"
 
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
@@ -114,7 +114,7 @@ contain valid denominations. Accounts may optionally be supplied with vesting pa
 					return errors.New("invalid vesting parameters; must supply start and end time or end time")
 				}
 			} else {
-				genAccount = okexchain.EthAccount{
+				genAccount = blockchain.EthAccount{
 					BaseAccount: baseAccount,
 					CodeHash:    ethcrypto.Keccak256(nil),
 				}

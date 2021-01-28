@@ -10,7 +10,7 @@ import (
 	abci "github.com/tendermint/tendermint/abci/types"
 )
 
-const addrTest = "okexchain1a20d4xmqj4m9shtm0skt0aaahsgeu4h6746fs2"
+const addrTest = "blockchain1a20d4xmqj4m9shtm0skt0aaahsgeu4h6746fs2"
 
 func TestKeeper_GetPoolTokenInfo(t *testing.T) {
 	mapp, _ := GetTestInput(t, 1)

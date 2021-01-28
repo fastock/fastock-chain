@@ -25,7 +25,7 @@ func init() {
 }
 
 // ----------------------------------------------------------------------------
-// Main OKExChain account
+// Main Blockchain account
 // ----------------------------------------------------------------------------
 
 // EthAccount implements the auth.Account interface and embeds an

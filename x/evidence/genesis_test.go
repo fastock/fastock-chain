@@ -27,28 +27,28 @@ type GenesisTestSuite struct {
 	keeper evidence.Keeper
 }
 
-func MakeOKEXApp() *app.OKExChainApp {
+func MakeBlockchainApp() *app.BlockchainApp {
 	genesisState := app.NewDefaultGenesisState()
 	db := dbm.NewMemDB()
-	okexapp := app.NewOKExChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	blockchainapp := app.NewBlockchainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
-	stateBytes, err := codec.MarshalJSONIndent(okexapp.Codec(), genesisState)
+	stateBytes, err := codec.MarshalJSONIndent(blockchainapp.Codec(), genesisState)
 	if err != nil {
 		panic(err)
 	}
-	okexapp.InitChain(
+	blockchainapp.InitChain(
 		abci.RequestInitChain{
 			Validators:    []abci.ValidatorUpdate{},
 			AppStateBytes: stateBytes,
 		},
 	)
-	return okexapp
+	return blockchainapp
 }
 
 func (suite *GenesisTestSuite) SetupTest() {
 	checkTx := false
 
-	app := MakeOKEXApp()
+	app := MakeBlockchainApp()
 	// get the app's codec and register custom testing types
 	cdc := app.Codec()
 	cdc.RegisterConcrete(types.TestEquivocationEvidence{}, "test/TestEquivocationEvidence", nil)

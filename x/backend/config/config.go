@@ -7,21 +7,21 @@ import (
 	"os"
 	"path/filepath"
 
-	okexchaincfg "github.com/cosmos/cosmos-sdk/server/config"
+	blockchaincfg "github.com/cosmos/cosmos-sdk/server/config"
 )
 
 // nolint
 var (
 	DefaultMaintainConfile = "maintain.conf"
-	DefaultNodeHome        = okexchaincfg.GetNodeHome()
+	DefaultNodeHome        = blockchaincfg.GetNodeHome()
 	DefaultNodeCofig       = filepath.Join(DefaultNodeHome, "config")
 	DefaultTestConfig      = filepath.Join(DefaultNodeHome, "test_config")
 	DefaultTestDataHome    = filepath.Join(DefaultNodeHome, "test_data")
-	DefaultConfig          = okexchaincfg.DefaultBackendConfig
+	DefaultConfig          = blockchaincfg.DefaultBackendConfig
 )
 
 // nolint
-type Config = okexchaincfg.BackendConfig
+type Config = blockchaincfg.BackendConfig
 
 func loadMaintainConf(confDir string, fileName string) (*Config, error) {
 	fPath := confDir + string(os.PathSeparator) + fileName

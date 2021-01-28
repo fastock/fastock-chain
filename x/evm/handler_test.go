@@ -40,7 +40,7 @@ type EvmTestSuite struct {
 	ctx     sdk.Context
 	handler sdk.Handler
 	querier sdk.Querier
-	app     *app.OKExChainApp
+	app     *app.BlockchainApp
 	codec   *codec.Codec
 }
 

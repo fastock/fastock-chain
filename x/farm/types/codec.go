@@ -6,13 +6,13 @@ import (
 
 // RegisterCodec registers concrete types on codec
 func RegisterCodec(cdc *codec.Codec) {
-	cdc.RegisterConcrete(MsgCreatePool{}, "okexchain/farm/MsgCreatePool", nil)
-	cdc.RegisterConcrete(MsgDestroyPool{}, "okexchain/farm/MsgDestroyPool", nil)
-	cdc.RegisterConcrete(MsgLock{}, "okexchain/farm/MsgLock", nil)
-	cdc.RegisterConcrete(MsgUnlock{}, "okexchain/farm/MsgUnlock", nil)
-	cdc.RegisterConcrete(MsgClaim{}, "okexchain/farm/MsgClaim", nil)
-	cdc.RegisterConcrete(MsgProvide{}, "okexchain/farm/MsgProvide", nil)
-	cdc.RegisterConcrete(ManageWhiteListProposal{}, "okexchain/farm/ManageWhiteListProposal", nil)
+	cdc.RegisterConcrete(MsgCreatePool{}, "blockchain/farm/MsgCreatePool", nil)
+	cdc.RegisterConcrete(MsgDestroyPool{}, "blockchain/farm/MsgDestroyPool", nil)
+	cdc.RegisterConcrete(MsgLock{}, "blockchain/farm/MsgLock", nil)
+	cdc.RegisterConcrete(MsgUnlock{}, "blockchain/farm/MsgUnlock", nil)
+	cdc.RegisterConcrete(MsgClaim{}, "blockchain/farm/MsgClaim", nil)
+	cdc.RegisterConcrete(MsgProvide{}, "blockchain/farm/MsgProvide", nil)
+	cdc.RegisterConcrete(ManageWhiteListProposal{}, "blockchain/farm/ManageWhiteListProposal", nil)
 }
 
 // ModuleCdc defines the module codec

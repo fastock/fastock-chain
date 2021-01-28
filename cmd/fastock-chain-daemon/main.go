@@ -26,7 +26,7 @@ import (
 	"github.com/fastock/fastock-chain/app"
 	"github.com/fastock/fastock-chain/app/codec"
 	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
-	okexchain "github.com/fastock/fastock-chain/app/types"
+	blockchain "github.com/fastock/fastock-chain/app/types"
 	"github.com/fastock/fastock-chain/cmd/client"
 	"github.com/fastock/fastock-chain/x/genutil"
 	genutilcli "github.com/fastock/fastock-chain/x/genutil/client/cli"
@@ -52,15 +52,15 @@ func main() {
 	clientkeys.KeysCdc = cdc
 
 	config := sdk.GetConfig()
-	okexchain.SetBech32Prefixes(config)
-	okexchain.SetBip44CoinType(config)
+	blockchain.SetBech32Prefixes(config)
+	blockchain.SetBip44CoinType(config)
 	config.Seal()
 
 	ctx := server.NewDefaultContext()
 
 	rootCmd := &cobra.Command{
 		Use:               "fastock-chain-daemon",
-		Short:             "OKExChain App Daemon (server)",
+		Short:             "Blockchain App Daemon (server)",
 		PersistentPreRunE: server.PersistentPreRunEFn(ctx),
 	}
 	// CLI commands to initialize the chain
@@ -86,7 +86,7 @@ func main() {
 	server.AddCommands(ctx, cdc, rootCmd, newApp, exportAppStateAndTMValidators, registerRoutes)
 
 	// prepare and add flags
-	executor := cli.PrepareBaseCmd(rootCmd, "OKEXCHAIN", app.DefaultNodeHome)
+	executor := cli.PrepareBaseCmd(rootCmd, "BLOCKCHAIN", app.DefaultNodeHome)
 	rootCmd.PersistentFlags().UintVar(&invCheckPeriod, flagInvCheckPeriod,
 		0, "Assert registered invariants every N blocks")
 	err := executor.Execute()
@@ -96,7 +96,7 @@ func main() {
 }
 
 func newApp(logger log.Logger, db dbm.DB, traceStore io.Writer) abci.Application {
-	return app.NewOKExChainApp(
+	return app.NewBlockchainApp(
 		logger,
 		db,
 		traceStore,
@@ -112,14 +112,14 @@ func newApp(logger log.Logger, db dbm.DB, traceStore io.Writer) abci.Application
 func exportAppStateAndTMValidators(
 	logger log.Logger, db dbm.DB, traceStore io.Writer, height int64, forZeroHeight bool, jailWhiteList []string,
 ) (json.RawMessage, []tmtypes.GenesisValidator, error) {
-	var ethermintApp *app.OKExChainApp
+	var ethermintApp *app.BlockchainApp
 	if height != -1 {
-		ethermintApp = app.NewOKExChainApp(logger, db, traceStore, false, map[int64]bool{}, 0)
+		ethermintApp = app.NewBlockchainApp(logger, db, traceStore, false, map[int64]bool{}, 0)
 
 		if err := ethermintApp.LoadHeight(height); err != nil {
 			return nil, nil, err
 		} else {
-			ethermintApp = app.NewOKExChainApp(logger, db, traceStore, true, map[int64]bool{}, 0)
+			ethermintApp = app.NewBlockchainApp(logger, db, traceStore, true, map[int64]bool{}, 0)
 		}
 	}
 

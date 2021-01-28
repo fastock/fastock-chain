@@ -1,6 +1,6 @@
-# Makefile for the "okexchainnode" docker image.
+# Makefile for the "fastock-chain-node" docker image.
 
 all:
-	docker build --tag okexchain/node -f node/Dockerfile ../../../okexchain
+	docker build --tag fastock-chain/node -f node/Dockerfile ../../../fastock-chain
 
 .PHONY: all

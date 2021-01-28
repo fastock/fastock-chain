@@ -25,7 +25,7 @@ import (
 	"github.com/fastock/fastock-chain/app/codec"
 	"github.com/fastock/fastock-chain/app/crypto/ethsecp256k1"
 	"github.com/fastock/fastock-chain/app/rpc"
-	okexchain "github.com/fastock/fastock-chain/app/types"
+	blockchain "github.com/fastock/fastock-chain/app/types"
 	"github.com/fastock/fastock-chain/cmd/client"
 )
 
@@ -45,8 +45,8 @@ func main() {
 
 	// Read in the configuration file for the sdk
 	config := sdk.GetConfig()
-	okexchain.SetBech32Prefixes(config)
-	okexchain.SetBip44CoinType(config)
+	blockchain.SetBech32Prefixes(config)
+	blockchain.SetBip44CoinType(config)
 	config.Seal()
 
 	rootCmd := &cobra.Command{
@@ -76,8 +76,8 @@ func main() {
 		flags.NewCompletionCmd(rootCmd, true),
 	)
 
-	// Add flags and prefix all env exposed with OKEXCHAIN
-	executor := cli.PrepareMainCmd(rootCmd, "OKEXCHAIN", app.DefaultCLIHome)
+	// Add flags and prefix all env exposed with BLOCKCHAIN
+	executor := cli.PrepareMainCmd(rootCmd, "BLOCKCHAIN", app.DefaultCLIHome)
 
 	err := executor.Execute()
 	if err != nil {

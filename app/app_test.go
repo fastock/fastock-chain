@@ -19,9 +19,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 )
 
-func TestOKExChainAppExport(t *testing.T) {
+func TestBlockchainAppExport(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKExChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewBlockchainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	genesisState := ModuleBasics.DefaultGenesis()
 	stateBytes, err := codec.MarshalJSONIndent(app.cdc, genesisState)
@@ -37,14 +37,14 @@ func TestOKExChainAppExport(t *testing.T) {
 	app.Commit()
 
 	// Making a new app object with the db, so that initchain hasn't been called
-	app2 := NewOKExChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app2 := NewBlockchainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 	_, _, err = app2.ExportAppStateAndValidators(false, []string{})
 	require.NoError(t, err, "ExportAppStateAndValidators should not have an error")
 }
 
 func TestModuleManager(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKExChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewBlockchainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 	for moduleName, _ := range ModuleBasics {
 		if moduleName == upgrade.ModuleName || moduleName == debug.ModuleName {
@@ -57,7 +57,7 @@ func TestModuleManager(t *testing.T) {
 
 func TestProposalManager(t *testing.T) {
 	db := dbm.NewMemDB()
-	app := NewOKExChainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
+	app := NewBlockchainApp(log.NewTMLogger(log.NewSyncWriter(os.Stdout)), db, nil, true, map[int64]bool{}, 0)
 
 
 	require.True(t, app.GovKeeper.Router().HasRoute(params.RouterKey))

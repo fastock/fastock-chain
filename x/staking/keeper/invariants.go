@@ -10,7 +10,7 @@ import (
 	"github.com/fastock/fastock-chain/x/staking/types"
 )
 
-// RegisterInvariantsCustom registers all staking invariants for okexchain
+// RegisterInvariantsCustom registers all staking invariants for blockchain
 func RegisterInvariantsCustom(ir sdk.InvariantRegistry, k Keeper) {
 
 	ir.RegisterRoute(types.ModuleName, "module-accounts",

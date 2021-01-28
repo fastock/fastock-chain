@@ -25,7 +25,7 @@ func NewQuerier(k Keeper) sdk.Querier {
 			return queryPool(ctx, k)
 		case types.QueryParameters:
 			return queryParameters(ctx, k)
-			// required by okexchain
+			// required by blockchain
 		case types.QueryUnbondingDelegation:
 			return queryUndelegation(ctx, req, k)
 		case types.QueryValidatorAllShares:

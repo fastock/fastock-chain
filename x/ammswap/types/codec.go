@@ -6,10 +6,10 @@ import (
 
 // RegisterCodec registers concrete types on codec
 func RegisterCodec(cdc *codec.Codec) {
-	cdc.RegisterConcrete(MsgAddLiquidity{}, "okexchain/ammswap/MsgAddLiquidity", nil)
-	cdc.RegisterConcrete(MsgRemoveLiquidity{}, "okexchain/ammswap/MsgRemoveLiquidity", nil)
-	cdc.RegisterConcrete(MsgCreateExchange{}, "okexchain/ammswap/MsgCreateExchange", nil)
-	cdc.RegisterConcrete(MsgTokenToToken{}, "okexchain/ammswap/MsgSwapToken", nil)
+	cdc.RegisterConcrete(MsgAddLiquidity{}, "blockchain/ammswap/MsgAddLiquidity", nil)
+	cdc.RegisterConcrete(MsgRemoveLiquidity{}, "blockchain/ammswap/MsgRemoveLiquidity", nil)
+	cdc.RegisterConcrete(MsgCreateExchange{}, "blockchain/ammswap/MsgCreateExchange", nil)
+	cdc.RegisterConcrete(MsgTokenToToken{}, "blockchain/ammswap/MsgSwapToken", nil)
 }
 
 // ModuleCdc defines the module codec

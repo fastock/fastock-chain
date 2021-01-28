@@ -65,7 +65,7 @@ func TestnetCmd(ctx *server.Context, cdc *codec.Codec,
 ) *cobra.Command {
 	cmd := &cobra.Command{
 		Use:   "testnet",
-		Short: "Initialize files for an OKExChain testnet",
+		Short: "Initialize files for an Blockchain testnet",
 		Long: `testnet will create "v" number of directories and populate each with
 necessary files (private validator, genesis, config, etc.).
 
@@ -136,7 +136,7 @@ func InitTestnet(
 ) error {
 
 	if chainID == "" {
-		chainID = fmt.Sprintf("okexchain-%d", tmrand.Int63n(9999999999999)+1)
+		chainID = fmt.Sprintf("blockchain-%d", tmrand.Int63n(9999999999999)+1)
 	}
 
 	if !ethermint.IsValidChainID(chainID) {
